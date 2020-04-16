@@ -1,0 +1,55 @@
+@media screen and (min-width : 480px) {
+	.nav-link {
+		margin: 2px;
+		color: #1DBF73;
+		display: inline;
+		font-size: 0.8em;
+	}
+	.active {
+		display: none !important;
+	}
+}
+@media screen and (min-width : 750px) {
+	#Mnav {
+		display: none;
+	}
+	#Dnav {
+		display: block;
+		padding-bottom: 1rem; 
+	}
+	.padding {
+		padding: 2% 7%;
+	}
+	.nav-link {
+		margin: 0;
+	}
+}
+@media screen and (min-width : 820px) {
+	.active {
+		display: inline-block !important;
+	}
+	.child05 img {
+	    width: 100%;
+	    min-height: 100%;
+	}
+}
+@media screen and (min-width: 768px) {
+	div#header {
+		background-size: cover;
+	}
+	input, button, textarea {
+		width: 60%;
+	}
+	.accordion {
+		box-shadow: none !important;
+	}
+	footer {
+		text-align: left;
+	}
+	#footer {
+		text-align: left;
+	}
+	.f_content {
+		padding: 0;
+	}
+}
