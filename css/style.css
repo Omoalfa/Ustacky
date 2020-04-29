@@ -154,23 +154,19 @@ button:hover {
     color: white;
     font-size: 3em;
 }
-ul.course-leads {
-    padding: 0;
-}
 .course-leads li {
     list-style: none;
-    display: inline-block;
-    margin: 3%;
-    padding: 0;
-}
-.course-leads li img {
-    width: 150px;
-    height: 150px;
-    border-radius: 55%;
-    border: 2px solid #1DBF73;
+    padding: 1% 0;
+    background-image: url(../images/conta.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 60%;
+    margin: auto;
+
 }
 .course-leads h4 {
-    color: #1DBF73;
+    font-weight: bold;
 }
 .syllabus > .card {
     border: none;
